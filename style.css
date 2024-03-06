@@ -61,6 +61,8 @@ h1{
 .Published{
     align-self: flex-start; 
     margin-top: 25px;
+    color: hsl(0, 0%, 50%);
+
 }
 
 b{
