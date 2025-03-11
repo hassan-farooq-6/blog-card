@@ -6,13 +6,11 @@
 
     background-color: hsl(47, 88%, 63%);
     /* font-family: "Figtree", sans-serif; */
-    font-weight: 500;
     font-optical-sizing: auto;
 
     /* font-family: "Outfit", sans-serif; */
     font-family: "Figtree", "Outfit", sans-serif;
 
-    font-optical-sizing: auto;
     font-weight: 800;
     font-style: normal;
 }
@@ -31,11 +29,11 @@
     border-radius: 17px;
     
     
-    box-shadow: 7px 7px;
-}
+    box-shadow: 7px 7px 5px rgba(0, 0, 0, 0.2);
+  }
 .card-outline{
     width: 22%;
-    height: 0%;
+    height: auto;
     margin: 180px auto ;
     display: flex;
     align-items: center;
@@ -59,11 +57,11 @@ h1{
     
 
 }
-.Published{
+.published{
     align-self: flex-start; 
     margin-top: 25px;
     color: hsl(0, 0%, 50%);
-
+    
 }
 
 b{
@@ -102,5 +100,10 @@ b{
     color: hsl(0, 0%, 50%);
   }
 
-
-
+  @media (max-width: 600px) {
+    .card {
+      width: 100%;
+      padding: 10px;
+    }
+  }
+  
