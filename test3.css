@@ -1,5 +1,4 @@
 body {
-    background-color: red
-    color: white;
-}
-"/* Testing AI review */" 
+    background-color: red /* Missing semicolon here */
+  }
+  
